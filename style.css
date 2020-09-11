@@ -1,0 +1,176 @@
+body{
+	margin: 0;
+}
+
+.content{
+	margin: auto;
+	width: 900px;
+}
+
+/* header________________________________________________________________________ */
+.headerUpper{
+	height: 9em;
+	background-color: #CABBB7;
+}
+
+#headerText{
+	position: absolute;
+	padding-top: 2.5em;
+	padding-left: 5em;
+	font-family: 'Iwona-Bold';
+	font-size: 14pt;
+}
+
+@font-face {
+    font-family: 'Iwona-Bold';
+    src:url('./fonts/webfonts_Iwona-Bold/Iwona-Bold.ttf.woff') format('woff'),
+        url('./fonts/webfonts_Iwona-Bold/Iwona-Bold.ttf.svg#Iwona-Bold') format('svg'),
+        url('./fonts/webfonts_Iwona-Bold/Iwona-Bold.ttf.eot'),
+        url('./fonts/webfonts_Iwona-Bold/Iwona-Bold.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kanit-SemiBold';
+    src:url('./fonts/webfonts_Kanit-SemiBold/Kanit-SemiBold.ttf.woff') format('woff'),
+        url('./fonts/webfonts_Kanit-SemiBold/Kanit-SemiBold.ttf.svg#Kanit-SemiBold') format('svg'),
+        url('./fonts/webfonts_Kanit-SemiBold/Kanit-SemiBold.ttf.eot'),
+        url('./fonts/webfonts_Kanit-SemiBold/Kanit-SemiBold.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open-Sans-Bold';
+    src:url('./fonts/webfonts_Open-Sans-Bold/Open-Sans-Bold.ttf.woff') format('woff'),
+        url('./fonts/webfonts_Open-Sans-Bold/Open-Sans-Bold.ttf.svg#Open-Sans-Bold') format('svg'),
+        url('./fonts/webfonts_Open-Sans-Bold/Open-Sans-Bold.ttf.eot'),
+        url('./fonts/webfonts_Open-Sans-Bold/Open-Sans-Bold.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+#CFlogoHeader{
+	position: absolute;
+	padding-right: 5em;
+	max-height: 5em;
+	padding-top: 2em;
+	padding-left: 38em;
+}
+
+.navBar{
+	margin: 0;
+	background-color: #C65252;
+}
+
+#navElements{
+	margin: 0;
+	padding-left: 32em;
+}
+
+li{
+	display: inline;
+	padding: .3em;
+
+}
+
+li a{
+	color: white;
+	font-family: Kanit-SemiBold;
+	text-decoration: none;
+	font-size: 14pt;
+}
+
+/* content________________________________________________________________________ */
+.centered{
+	text-align: center;
+	font-family: Open-Sans-Bold;
+	font-size: 40pt;
+	line-height: .3;
+}
+
+.headline{
+	text-align: center;
+	font-family: Open-Sans-Bold;
+	line-height: 1.3;
+	font-size: 14pt;
+	word-wrap: break-word;
+	margin-top: 0;
+}
+
+#articles{
+	margin: 0 auto;
+	width: 720px;
+}
+
+.cropWide{
+	width: 100%;
+	height: 200px;
+	overflow: hidden;
+}
+
+.cropHalf{
+	overflow: hidden;
+}
+
+#article1{
+	width: 100%;
+}
+
+#article1 img{
+	max-width: 100%;
+	object-position: 0px -142px;
+}
+
+#article2{
+	margin: 0;
+	display: inline-block;
+	max-width: 49%;
+}
+
+#article2 img{
+	max-width: 110%;
+	object-position: 0px -5px;
+}
+
+#article3{
+	float: right;
+	margin: 0;
+	display: inline-block;
+	max-width: 49%;
+}
+
+#article3 img{
+	max-width: 110%;
+	object-position: 0px -5px;
+}
+
+.divider{
+	display: inline-block;
+	max-width: 10%;
+	height: 200px;
+}
+
+/* footer _________________________________________________________________________*/
+.footer{
+	background-color: #CABBB7;
+}
+
+#CFlogoFooter{
+	height: 3em;
+	margin-top: 1em;
+}
+
+#logoContainer{
+	text-align: center;
+	width: 20%;
+	margin-left: 40%;
+}
+
+#footerText{
+	font-family: 'Iwona-Bold';
+	font-size: 10pt;
+	text-align: center;
+	padding-bottom: 1em;
+}
