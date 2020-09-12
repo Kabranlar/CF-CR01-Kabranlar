@@ -1,7 +1,7 @@
 body{
 	margin: 0;
 }
-
+/* fixing width and centering */
 .content{
 	margin: auto;
 	width: 900px;
@@ -19,36 +19,6 @@ body{
 	padding-left: 5em;
 	font-family: 'Iwona-Bold';
 	font-size: 14pt;
-}
-
-@font-face {
-    font-family: 'Iwona-Bold';
-    src:url('./fonts/webfonts_Iwona-Bold/Iwona-Bold.ttf.woff') format('woff'),
-        url('./fonts/webfonts_Iwona-Bold/Iwona-Bold.ttf.svg#Iwona-Bold') format('svg'),
-        url('./fonts/webfonts_Iwona-Bold/Iwona-Bold.ttf.eot'),
-        url('./fonts/webfonts_Iwona-Bold/Iwona-Bold.ttf.eot?#iefix') format('embedded-opentype'); 
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Kanit-SemiBold';
-    src:url('./fonts/webfonts_Kanit-SemiBold/Kanit-SemiBold.ttf.woff') format('woff'),
-        url('./fonts/webfonts_Kanit-SemiBold/Kanit-SemiBold.ttf.svg#Kanit-SemiBold') format('svg'),
-        url('./fonts/webfonts_Kanit-SemiBold/Kanit-SemiBold.ttf.eot'),
-        url('./fonts/webfonts_Kanit-SemiBold/Kanit-SemiBold.ttf.eot?#iefix') format('embedded-opentype'); 
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Open-Sans-Bold';
-    src:url('./fonts/webfonts_Open-Sans-Bold/Open-Sans-Bold.ttf.woff') format('woff'),
-        url('./fonts/webfonts_Open-Sans-Bold/Open-Sans-Bold.ttf.svg#Open-Sans-Bold') format('svg'),
-        url('./fonts/webfonts_Open-Sans-Bold/Open-Sans-Bold.ttf.eot'),
-        url('./fonts/webfonts_Open-Sans-Bold/Open-Sans-Bold.ttf.eot?#iefix') format('embedded-opentype'); 
-    font-weight: normal;
-    font-style: normal;
 }
 
 #CFlogoHeader{
@@ -173,4 +143,35 @@ li a{
 	font-size: 10pt;
 	text-align: center;
 	padding-bottom: 1em;
+}
+
+/* webfonts______________________________________________________________________________________________________ */
+@font-face {
+    font-family: 'Iwona-Bold';
+    src:url('./fonts/webfonts_Iwona-Bold/Iwona-Bold.ttf.woff') format('woff'),
+        url('./fonts/webfonts_Iwona-Bold/Iwona-Bold.ttf.svg#Iwona-Bold') format('svg'),
+        url('./fonts/webfonts_Iwona-Bold/Iwona-Bold.ttf.eot'),
+        url('./fonts/webfonts_Iwona-Bold/Iwona-Bold.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kanit-SemiBold';
+    src:url('./fonts/webfonts_Kanit-SemiBold/Kanit-SemiBold.ttf.woff') format('woff'),
+        url('./fonts/webfonts_Kanit-SemiBold/Kanit-SemiBold.ttf.svg#Kanit-SemiBold') format('svg'),
+        url('./fonts/webfonts_Kanit-SemiBold/Kanit-SemiBold.ttf.eot'),
+        url('./fonts/webfonts_Kanit-SemiBold/Kanit-SemiBold.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open-Sans-Bold';
+    src:url('./fonts/webfonts_Open-Sans-Bold/Open-Sans-Bold.ttf.woff') format('woff'),
+        url('./fonts/webfonts_Open-Sans-Bold/Open-Sans-Bold.ttf.svg#Open-Sans-Bold') format('svg'),
+        url('./fonts/webfonts_Open-Sans-Bold/Open-Sans-Bold.ttf.eot'),
+        url('./fonts/webfonts_Open-Sans-Bold/Open-Sans-Bold.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
 }
